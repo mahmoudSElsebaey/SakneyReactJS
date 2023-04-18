@@ -38,13 +38,28 @@
   outline: 0 !important;
   box-shadow: none !important;
 }
-.search-box button{
+/* .search-box button{
   width: 23%;
   height: 2.7rem;
 }
 
 .search-box button i{
   padding-right: .3rem;
+} */
+
+.search-box a{
+  width: 23%;
+  height: 2.7rem;
+  color: #0d6efd !important;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.search-box a i{
+  padding-right: .3rem;
+}
+.search-box a:hover{
+  color: #fff !important;
 }
 
 /* .form-select:hover {

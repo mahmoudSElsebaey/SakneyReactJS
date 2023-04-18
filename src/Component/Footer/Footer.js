@@ -83,7 +83,7 @@ function Footer() {
         <div className="container Author">
           <p>
             Copyright ©2022 All rights reserved | Made by
-            <Link to="#"> Garduation Team 2022-2023</Link>
+            <Link to="#"> Graduation Team 2022-2023</Link>
           </p>
         </div>
       </footer>

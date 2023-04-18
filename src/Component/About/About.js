@@ -14,38 +14,45 @@ function About() {
         <div className="about-website col-lg-7 col-md-6 col-sm-12">
           <h3>Our Website</h3>
           <p>
-            Our website is considered one of the most important websites on the
-            Internet in the Egypt, because our website always offers the best
-            apartments to students before any other website in the Egypt.
+            Our site is considered one of the most important sites available on
+            the Internet in Egypt, because our site offers Always the best
+            suitable apartments for expatriate students as well as for clients
+            and investors in Egypt
           </p>
           <p>
             Our website is also characterized by a variety of apartments and
-            prices suitable for all students for all levels , as well as we have all type of
-            apartments that you want.
+            prices suitable for all students for all levels , as well as we have
+            all type of apartments that you want.
           </p>
         </div>
         <div className="about-howUse col-lg-7 col-md-6 col-sm-12">
           <h3>How to use the website</h3>
           <ul>
             <li>
-              <span>1</span> Sign in
+              <span>1</span> Sign in or Sign up
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
+                First, to use our website, you must log in with your personal
+                account or create a new account if you do not have an account .
               </p>
             </li>
             <li>
               <span>2</span> add your ads or search for apartment
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
+                If you own residential units for rent, you can add an
+                advertisement for expatriate students on our website .
+              </p>
+              <p>
+                If you are an expatriate student looking for apartments for rent
+                near the university during The study you can search for through
+                our website in the search box .
               </p>
             </li>
             <li>
-              <span>3</span> send payment requst
+              <span>3</span> send payment request
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
+                Finally, when you finish adding an ad, or when you finish
+                searching for Suitable housing You can pay the rental fee
+                through our website
               </p>
             </li>
           </ul>

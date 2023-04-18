@@ -36,7 +36,7 @@ function NavbarMain() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className=" flex-grow-1 pe-3">
+                <Nav className=" flex-grow-1 pe-3 nav-links">
                   <Nav.Link as={NavLink} to="">
                     Home
                   </Nav.Link>
@@ -51,7 +51,7 @@ function NavbarMain() {
                   </Nav.Link>
                 </Nav>
                 <Form className="d-flex nav-right">
-                  <Nav className="justify-content-end flex-grow-1 pe-3">
+                  <Nav className="justify-content-end flex-grow-1 pe-3 nav-links">
                     <Nav.Link as={NavLink} to="signin" id="SignInBtn">
                       Sign In
                     </Nav.Link>
@@ -65,6 +65,7 @@ function NavbarMain() {
                     className="nav-btn-search"
                     as={Link}
                     to="search"
+                    id="btnSearch"
                   >
                     Search
                   </Button>
@@ -74,6 +75,7 @@ function NavbarMain() {
                   className="nav-btn-add-ads mx-2"
                   as={NavLink}
                   to="createAd"
+                  id='btnAddAds'
                 >
                   <i className="fas fa-plus text-white"></i>
                   <span className="text-white"> create Ad</span>

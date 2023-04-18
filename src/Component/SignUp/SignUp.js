@@ -41,7 +41,7 @@ function SignUp() {
             <Form.Check type="checkbox" label="Check me out" />
           </Form.Group>
 
-          <Button variant="outline-primary" type="submit">
+          <Button variant="primary" type="submit" className="sign-btn">
             Submit
           </Button>
         </Form>

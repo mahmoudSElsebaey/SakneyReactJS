@@ -3,6 +3,7 @@ import Footer from "../Footer/Footer";
 import "./Search.css";
 import Button from "react-bootstrap/Button";
 
+
 function Search() {
   return (
     <>
@@ -41,7 +42,7 @@ function Search() {
             <option value="4">Studio flat</option>
             <option value="5">Partition</option>
           </Form.Select>
-          <Button variant="outline-primary" type="search">
+          <Button variant="outline-primary" type="search" href='apartments'>
             <i className="fas fa-search"></i> Search
           </Button>
         </div>

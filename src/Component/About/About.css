@@ -1,5 +1,5 @@
 .about-sec {
-  margin: auto;
+  margin:100px auto;
   margin-top: -2rem;
   /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
   display: flex;
@@ -46,11 +46,16 @@
   top: 0;
   left: 14px;
   width: 2px;
-  height: 70%;
+  height: 85%;
   background-color: #0d6efd;
   z-index: -1;
 }
-
+.about-howUse-ar ul::before {
+  right: 14px;
+}
+.about-howUse-ar ul li p {
+  padding-right: 25px;
+}
 .about-howUse ul li {
   font-size: 17px;
   font-weight: bolder;
