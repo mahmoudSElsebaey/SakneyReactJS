@@ -94,7 +94,3 @@ function Footer() {
 }
 
 export default Footer;
-// git dd .
-// git commit -m
-// npm run deploy
-//  npm run dev
